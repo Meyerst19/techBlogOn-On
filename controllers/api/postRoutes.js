@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Post, Comment, User } = require("../models");
+const { Post, Comment, User } = require("../../models");
 
 //http://localhost:3001/api/post/:id
 router.get("/", async (req, res) => {
